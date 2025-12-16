@@ -9,15 +9,19 @@ export default function Home() {
       
       {/* Content */}
       <div className="relative z-10 text-center">
-        <h1 className="text-6xl font-bold text-white mb-4">
-          Hello World
+        <h1 className="text-7xl font-bold text-white mb-6 animate-pulse">
+          Hello Universe!
         </h1>
-        <p className="text-2xl text-white/90">
-          Welcome to your Jam site!
+        <p className="text-3xl text-white/90 mb-4">
+          Exploring the cosmos of web development
+        </p>
+        <p className="text-xl text-white/80">
+          Built with Next.js and Tailwind CSS
         </p>
       </div>
     </div>
   );
 }
+
 
 
