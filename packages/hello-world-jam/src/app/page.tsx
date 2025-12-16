@@ -1,7 +1,14 @@
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-500 to-purple-600">
-      <div className="text-center">
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Aurora background layers */}
+      <div className="absolute inset-0 bg-aurora-layer-1"></div>
+      <div className="absolute inset-0 bg-aurora-layer-2"></div>
+      <div className="absolute inset-0 bg-aurora-layer-3"></div>
+      <div className="absolute inset-0 bg-particles"></div>
+      
+      {/* Content */}
+      <div className="relative z-10 text-center">
         <h1 className="text-6xl font-bold text-white mb-4">
           Hello World
         </h1>
@@ -12,4 +19,5 @@ export default function Home() {
     </div>
   );
 }
+
 
