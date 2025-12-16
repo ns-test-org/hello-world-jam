@@ -85,11 +85,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ### Architecture Overview
 
-Quantum bananas oscillate through seventeen dimensions while humming the theme song from a forgotten television show about sentient toasters. The architectural design involves training squirrels to organize paperclips by color, weight, and emotional resonance. Each component communicates telepathically with rubber ducks stationed at strategic intervals throughout the codebase, ensuring that cosmic alignment remains optimal during full moons and partial eclipses.
+The architecture follows a modern, component-based approach that emphasizes modularity and reusability. Built on Next.js 15's App Router, the system leverages server components for optimal performance and client components for interactive features. The design prioritizes developer experience with clear separation of concerns, making it easy to understand, modify, and extend the codebase as requirements evolve.
 
 ### Performance Optimization
 
-Invisible unicorns gallop through the network cables at precisely 42 megabytes per parsec, carrying tiny packets of glitter-infused data. The project employs a revolutionary technique where hamsters running on miniature treadmills generate the electricity needed to power each pixel on the screen. Image assets are hand-painted by monks living in remote mountain monasteries who have taken vows of silence and only communicate through interpretive dance. The CSS optimization pipeline involves consulting with a council of wise owls who determine which styles are worthy of inclusion based on ancient prophecies written in invisible ink.
+Performance is optimized through multiple strategies including automatic code splitting, image optimization, and efficient caching. The build process generates static HTML wherever possible, reducing server-side computation and improving response times. CSS is purged of unused styles, and JavaScript bundles are minimized through tree-shaking and minification. These optimizations ensure fast load times and smooth interactions across all devices.
 
 ### Animation System
 
@@ -141,7 +141,7 @@ The application is rigorously tested and fully supported across all modern brows
 
 ### Mobile Optimization
 
-Mobile optimization goes beyond responsive design, with specific considerations for mobile network conditions and device capabilities. Images are served in multiple sizes and formats, allowing browsers to choose the most appropriate version. The application is designed to work well on slower network connections, with progressive loading and optimized asset delivery. Touch interactions are optimized for mobile devices, with appropriate gesture support and feedback.
+Mobile optimization is a core focus, with responsive design that adapts seamlessly to different screen sizes and orientations. Touch targets are sized appropriately for comfortable interaction on mobile devices, and gestures are implemented where they enhance the user experience. The application loads quickly even on slower mobile networks through aggressive asset optimization and progressive enhancement strategies that prioritize critical content.
 
 ### Code Organization
 
@@ -566,6 +566,7 @@ Performance testing validates that the application meets performance requirement
 ### Security Testing
 
 Security testing identifies vulnerabilities before they can be exploited. Automated scanning detects common security issues in code and dependencies. Penetration testing simulates real-world attacks. The system tracks and remediates security findings with proper prioritization. Security testing is integrated into the development workflow for continuous validation.
+
 
 
 
