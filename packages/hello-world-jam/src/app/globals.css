@@ -148,13 +148,38 @@ body {
   animation: bounce-horizontal 1.5s ease-in-out infinite;
 }
 
-/* Grid animation */
-@keyframes grid {
-  0% {
-    transform: translate(0, 0);
+/* Wave animations */
+@keyframes wave1 {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.3;
   }
-  100% {
-    transform: translate(40px, 40px);
+  50% {
+    transform: translateY(-20px) scale(1.05);
+    opacity: 0.5;
   }
 }
+
+@keyframes wave2 {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(30px) scale(1.08);
+    opacity: 0.4;
+  }
+}
+
+@keyframes wave3 {
+  0%, 100% {
+    transform: translateX(0) translateY(0) scale(1);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateX(-15px) translateY(15px) scale(1.1);
+    opacity: 0.35;
+  }
+}
+
 
