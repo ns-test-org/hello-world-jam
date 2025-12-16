@@ -1,6 +1,6 @@
 export default function Landing() {
   return (
-    <div className="relative flex items-center justify-center min-h-screen bg-yellow-400 overflow-hidden">
+    <div className="relative flex items-center justify-center min-h-screen bg-orange-500 overflow-hidden">
       {/* Animated wave background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 animate-[wave1_8s_ease-in-out_infinite]">
@@ -25,6 +25,7 @@ export default function Landing() {
     </div>
   );
 }
+
 
 
 
