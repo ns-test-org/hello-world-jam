@@ -1,3 +1,4 @@
+// This file was edited using write_file tool
 // This is a test comment for file editing mode
 // Multiedit test: Adding another comment here
 export default function Landing() {
@@ -18,17 +19,4 @@ export default function Landing() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
