@@ -16,7 +16,15 @@ export default function Landing() {
           Welcome to your new app!
         </p>
       </div>
+
+      {/* Footer */}
+      <footer className="absolute bottom-0 left-0 right-0 py-6 text-center z-10">
+        <p className="text-gray-700 text-sm">
+          Created with ❤️
+        </p>
+      </footer>
     </div>
   );
 }
+
 
