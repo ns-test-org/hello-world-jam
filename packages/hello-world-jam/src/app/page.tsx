@@ -1,5 +1,7 @@
 // This is a test comment for file editing mode
+// Multiedit test: Adding another comment here
 export default function Landing() {
+  // Multiedit test: Return statement comment
   return (
     <div className="relative flex items-center justify-center min-h-screen bg-green-500 overflow-hidden">
       {/* Animated grid background */}
@@ -16,6 +18,7 @@ export default function Landing() {
     </div>
   );
 }
+
 
 
 
