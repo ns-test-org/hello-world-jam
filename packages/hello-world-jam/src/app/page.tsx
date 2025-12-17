@@ -1,3 +1,4 @@
+// This is a test comment for file editing mode
 export default function Landing() {
   return (
     <div className="relative flex items-center justify-center min-h-screen bg-green-500 overflow-hidden">
@@ -15,6 +16,7 @@ export default function Landing() {
     </div>
   );
 }
+
 
 
 
